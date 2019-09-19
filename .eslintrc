@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "commonjs": true
+  },
+  "globals": {
+    "require": true,
+    "module": true,
+    "export": true,
+    "process": true,
+    "Buffer": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
